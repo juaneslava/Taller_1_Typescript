@@ -2,7 +2,7 @@ import { dataSeries } from './dataSeries.js';
 var seriesTbody = document.getElementById('series');
 var SeasonsAverageElm = document.getElementById("seasons-average");
 renderSeriesInTable(dataSeries);
-SeasonsAverageElm.innerHTML = "Average seasons: ".concat(getAverageSeasons(dataSeries));
+SeasonsAverageElm.innerHTML = "Seasons average: ".concat(getAverageSeasons(dataSeries));
 function renderSeriesInTable(series) {
     console.log('Desplegando cursos');
     series.forEach(function (serie) {

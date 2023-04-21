@@ -7,7 +7,7 @@ const SeasonsAverageElm: HTMLElement = document.getElementById("seasons-average"
 
 renderSeriesInTable(dataSeries);
 
-SeasonsAverageElm.innerHTML = `Average seasons: ${getAverageSeasons(dataSeries)}`;
+SeasonsAverageElm.innerHTML = `Seasons average: ${getAverageSeasons(dataSeries)}`;
 
 function renderSeriesInTable(series: Serie[]): void {
   console.log('Desplegando cursos');
